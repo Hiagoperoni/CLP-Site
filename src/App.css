@@ -40,9 +40,12 @@
 .dispProd {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  justify-items: center;
+  width: 50%;
 }
 
 .geralProd {
   border: 2px solid black;
+  cursor: pointer;
 }
