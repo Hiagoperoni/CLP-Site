@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function ProdutoComp() {
-  let nagigate = useNavigate();
+function ProdutoComp(props) {
+  let navigate = useNavigate();
 
   const paginaProduto = () => {
-    return nagigate("/produtoX")
+    return navigate("/produtoX")
   }
   
   return (
     <section className="geralProd">
-      <p>X</p>
-      <p>Temp. Atual: X Cº</p>
-      <p>Porta X</p>
+      <p>Freezer {props.id}</p>
+      <p>Temp. Atual: {props.temp}Cº</p>
+      <p>Porta {props.porta}</p>
     </section>
   )
 }
