@@ -11,7 +11,7 @@ function ProdutoComp(props) {
   return (
     <section className="geralProd">
       <p>Freezer {props.id}</p>
-      <p>Temp. Atual: {props.temp}Cº</p>
+      <p>Temp: {props.temp}Cº</p>
       <p>Porta {props.porta}</p>
     </section>
   )

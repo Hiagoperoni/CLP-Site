@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Login from './app/frontEnd/Pages/login';
 import Home from './app/frontEnd/Pages/home';
 import Produto from './app/frontEnd/Pages/produto';
+import ZoomProd from './app/frontEnd/Pages/zoom';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route exact path="/" element={ <Login /> } />
         <Route exact path="/home" element={ <Home /> } />
         <Route exact path="/produto" element={ <Produto /> } />
+        <Route exact path="/produto/:id" element={ <ZoomProd /> } />
       </Routes>
     </div>
   );

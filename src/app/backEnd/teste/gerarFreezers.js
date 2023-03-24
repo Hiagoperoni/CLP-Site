@@ -2,11 +2,11 @@ const zonaUm = [
   {
     id: 1,
     temp: -7,
-    porta: 'fechada',
+    porta: 'Aberta',
   },
   {
     id: 2,
-    temp: -6,
+    temp: -8,
     porta: 'fechada',
   },
   {

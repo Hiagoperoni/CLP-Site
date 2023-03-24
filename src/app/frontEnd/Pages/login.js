@@ -23,7 +23,7 @@ function Login() {
 
   return (
 
-    <main>
+    <main className="homePage">
       <div>
         <h1>CLP</h1>
       </div>
