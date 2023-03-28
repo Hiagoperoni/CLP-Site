@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import HeaderComp from '../Components/HeaderComp';
 import PlantaComp from '../Components/PlantaComp';
 

@@ -39,6 +39,41 @@ const zonaUm = [
     temp: -6,
     porta: 'fechada',
   },
+  {
+    id: 9,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 10,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 11,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 12,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 13,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 14,
+    temp: -6,
+    porta: 'fechada',
+  },
+  {
+    id: 15,
+    temp: -6,
+    porta: 'fechada',
+  },
 ];
 
 export default zonaUm;

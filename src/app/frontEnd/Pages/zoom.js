@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import gerarFreezers from '../../backEnd/teste/gerarFreezers';
+import React from 'react';
 import HeaderComp from '../Components/HeaderComp';
 
-function ZoomProd() {
+function ZoomProd(props) {
+  const verProps = () => {
+    console.log(props);
+  }
 
   return(
     <main className="homePage">
@@ -27,7 +29,7 @@ function ZoomProd() {
           <h2>Horario x x</h2>
         </div>
       </div>
-      <button type="button">Resetar</button>
+      <button type="button" onClick={ verProps }>Resetar</button>
     </main>
   )
 }

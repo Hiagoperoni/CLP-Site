@@ -56,3 +56,49 @@
   justify-content: center;
   align-items: center;
 }
+
+.freezerProd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 15vh;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
+}
+
+.dataFreezer {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.imgAlerta {
+  width: 20%;
+  height: 50%;
+}
+
+.dispFreezer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.uEsquerda {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.uBaixo {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: flex-end;
+  bottom: 0;
+}
+
+.uDireita {
+  display: flex;
+  flex-direction: column-reverse;
+}
