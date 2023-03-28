@@ -72,6 +72,7 @@
   display: flex;
   width: auto;
   align-items: center;
+  padding: 5%;
 }
 
 .imgAlerta {
@@ -101,4 +102,16 @@
 .uDireita {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.imgConfig {
+  width: 5%;
+  height: 10%;
+}
+
+.divConfig {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin-bottom: 1%;
 }

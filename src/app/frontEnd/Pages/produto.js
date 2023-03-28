@@ -2,12 +2,16 @@ import React from 'react';
 import zonaUm from '../../backEnd/teste/gerarFreezers.js';
 import FreezerComp from '../Components/FreezerComp';
 import HeaderComp from '../Components/HeaderComp.js';
+import imgConfig from '../Imagens/Configs.png'
 
 function Produto() {
   return (
     <main className="homePage">
       <HeaderComp />
       <h1>Painel da Planta 01</h1>
+      <div className="divConfig">
+        <img src={ imgConfig } alt="Configurações" className="imgConfig"/>  
+      </div>
       <div className="dispFreezer">
         <div className='uEsquerda'>
           {
