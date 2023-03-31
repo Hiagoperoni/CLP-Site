@@ -2,19 +2,15 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { FreezerController } from './controllers/freezers.controller';
+import { databaseProviders } from './database.providers';
+import { FreezerModule } from './modules/freezers.module';
+import { FreezerModel } from './models/freezers.model';
 
 @Module({
-  imports: [
-    TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      database: 'test',
-      synchronize: true,
-      entities: ['dist/**/*.model.js'],
-    }),
-  ],
+  providers: [...databaseProviders, AppService],
+  exports: [...databaseProviders],
   controllers: [AppController],
-  providers: [AppService],
+  imports: [TypeOrmModule.forFeature([FreezerModel])],
 })
 export class AppModule {}
