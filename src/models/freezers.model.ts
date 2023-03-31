@@ -19,7 +19,8 @@ export class FreezerModel {
   @CreateDateColumn()
   diaEHora: string;
 
-  @Column('int')
+  @Column({type: 
+  'integer'})
   tempDefinida: number;
 
   @Column('int')
